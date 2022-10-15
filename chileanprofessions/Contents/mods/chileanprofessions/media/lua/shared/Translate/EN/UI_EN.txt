@@ -1,0 +1,30 @@
+UI_EN = {
+    UI_prof_model = "Model",
+    UI_profdesc_model = "Beauty, strength and agility; That's Miss Project Zomboid.",
+
+    UI_prof_student = "Student",
+    UI_profdesc_student = "The new generations have a lot to learn.",
+
+    UI_prof_indigenous = "Indigenous",
+    UI_profdesc_indigenous = "In a crisis, the experience of the ancestors is vital.",
+
+    UI_prof_politic = "Politic",
+    UI_profdesc_politic = "Just another politician.",
+
+    UI_prof_shoddyworkman = "Shoddy Workman",
+    UI_profdesc_shoddyworkman = "Expert in the 'A bit of everything'",
+
+    UI_prof_furry = "Furry",
+    UI_profdesc_furry = "OwO *wags her tail*.",
+
+
+
+    UI_trait_streetwalker = "Street Walker",
+    UI_traitdesc_streetwalker = "Experience in knives and white weapons.",
+
+    UI_trait_student = "Student",
+    UI_traitdesc_student = "Variety of books.",
+
+    UI_trait_model = "Relax",
+    UI_traitdesc_model = "He carries cigarettes to calm down."
+}
