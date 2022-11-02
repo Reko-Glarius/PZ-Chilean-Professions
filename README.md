@@ -12,7 +12,7 @@ Mod de Project Zomboid para añadir profesiones y rasgos generales, comicos y re
 * **Politico:**
 * **Maestro Chasquilla:**
 
-## Profesiones de Broma:
+### Profesiones de Broma:
 * **Furro:**
 
 
