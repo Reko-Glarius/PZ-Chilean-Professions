@@ -5,6 +5,12 @@ UI_ES = {
     UI_prof_student = "Estudiante",
     UI_profdesc_student = "Las nuevas generaciones tienen mucho que aprender.",
 
+    UI_prof_lawyer = "Abogado",
+    UI_profdesc_lawyer = "Expertos en letras y el manejo de las leyes; Que desgracia que los Zombies no son juzgados ante estas.",
+
+    UI_prof_geography = "Geografo",
+    UI_profdesc_geography = "Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.",
+
     UI_prof_indigenous = "Indigena",
     UI_profdesc_indigenous = "En una crisis, la experiencia de los ancestros es vital.",
 
@@ -13,6 +19,12 @@ UI_ES = {
 
     UI_prof_shoddyworkman = "Maestro Chasquilla",
     UI_profdesc_shoddyworkman = "Experto en el 'Un poco de todo'.",
+
+    UI_prof_footballer = "Futbolista",
+    UI_profdesc_footballer = "GOLAZOOOOOOO...!",
+
+    UI_prof_strawweaver = "Tejedor de Paja",
+    UI_profdesc_strawweaver = "Una profesiones perdiendose en el tiempo, tratar de hilar y tejer con montones de paja.",
 
     UI_prof_furry = "Furro",
     UI_profdesc_furry = "OwO *Mueve su colita*.",
@@ -26,5 +38,17 @@ UI_ES = {
     UI_traitdesc_student = "Variedad de libros.",
 
     UI_trait_model = "Relajacion",
-    UI_traitdesc_model = "Lleva cigarros para calmarse."
+    UI_traitdesc_model = "Lleva cigarros para calmarse.", 
+
+    UI_trait_generatorexpertise = "Experiencia con Generadores",
+    UI_traitdesc_generatorexpertise = "Al haber ya trabajado con generadores, se tiene conocimientos y herramientas para poder usarlos.",
+
+    UI_trait_pathblade = "El Camino de la Espada",
+    UI_traitdesc_pathblade = "Mientras tu jugabas PZ con este mod, yo estudiaba la espada...",
+
+    UI_trait_footballer = "Amigo del balon",
+    UI_traitdesc_footballer = "Como cierto joven dijo en su momento, 'El balon es mi amigo'.", 
+
+    UI_trait_cartography = "Experiencia Cartografica",
+    UI_traitdesc_cartography = "Gracias a su experiencia investigando y explorando terrenos, tienes algo de experiencia en cartografia."
 }

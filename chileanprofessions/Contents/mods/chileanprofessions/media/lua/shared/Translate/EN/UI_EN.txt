@@ -5,6 +5,12 @@ UI_EN = {
     UI_prof_student = "Student",
     UI_profdesc_student = "The new generations have a lot to learn.",
 
+    UI_prof_lawyer = "Lawyer",
+    UI_profdesc_lawyer = "Experts in letters and the handling of laws; What a disgrace that Zombies are not judged before these.",
+
+    UI_prof_geography = "Geographer",
+    UI_profdesc_geography = "In order to understand and know the geography of the world, they embark on the path of knowing where they will be safest.",
+
     UI_prof_indigenous = "Indigenous",
     UI_profdesc_indigenous = "In a crisis, the experience of the ancestors is vital.",
 
@@ -13,6 +19,12 @@ UI_EN = {
 
     UI_prof_shoddyworkman = "Shoddy Workman",
     UI_profdesc_shoddyworkman = "Expert in the 'A bit of everything'",
+
+    UI_prof_footballer = "Footballer",
+    UI_profdesc_footballer = "GREAT GOOOOOOOOAAAAALLLL!",
+
+    UI_prof_strawweaver = "Straw Weaver",
+    UI_profdesc_strawweaver = "A profession lost in time, trying to spin and weave with piles of straw.",
 
     UI_prof_furry = "Furry",
     UI_profdesc_furry = "OwO *wags her tail*.",
@@ -26,5 +38,17 @@ UI_EN = {
     UI_traitdesc_student = "Variety of books.",
 
     UI_trait_model = "Relax",
-    UI_traitdesc_model = "He carries cigarettes to calm down."
+    UI_traitdesc_model = "He carries cigarettes to calm down.", 
+
+    UI_trait_generatorexpertise = "Generator Expertise",
+    UI_traitdesc_generatorexpertise = "Having already worked with generators, you have the knowledge and tools to be able to use them.",
+
+    UI_trait_pathblade = "The Path of the Blade",
+    UI_traitdesc_pathblade = "While you were playing PZ with this mod, I was studying the blade...",
+
+    UI_trait_footballer = "Friend of the Ball",
+    UI_traitdesc_footballer = "As a certain young man said at the time, 'The ball is my friend'.", 
+
+    UI_trait_cartography = "Cartographic Experience",
+    UI_traitdesc_cartography = "Thanks to your experience researching and exploring terrain, you have some experience in cartography."
 }

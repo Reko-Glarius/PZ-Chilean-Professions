@@ -14,12 +14,47 @@ addTrait('Streetwalker', {
     description = "UI_traitdesc_streetwalker",
     cost = 4,
     xp = {
-        [Perks.Blade] = 1, 
-        [Perks.ShortBlade] = 1
+        [Perks.LongBlade] = 1,
+        [Perks.SmallBlade] = 1,
     },
     inventory = { 
         ["Base.KitchenKnife"] = 1, 
         ["Base.MeatCleaver"] = 1, 
+    }
+})
+
+--[[
+    Experiencia con Generadores:
+    Al haber ya trabajado con generadores, se tiene conocimientos y herramientas para poder usarlos.
+]]
+addTrait('Generatorexpertise', {
+    name = "UI_trait_generatorexpertise",
+    description = "UI_traitdesc_generatorexpertise",
+    cost = 4,
+    xp = {
+        [Perks.Electricity] = 1, 
+    },
+    inventory = { 
+        ["Base.Screwdriver"] = 1, 
+    }, 
+    recipes = {
+        "Generator"
+    },
+})
+
+--[[
+    El Camino de la Espada:
+    Mientras tu jugabas PZ con este mod, yo estudiaba la espada...
+]]
+addTrait('Pathblade', {
+    name = "UI_trait_pathblade",
+    description = "UI_traitdesc_pathblade",
+    cost = 8,
+    xp = {
+        [Perks.LongBlade] = 2
+    },
+    inventory = { 
+        ["Base.Katana"] = 1
     }
 })
 
@@ -61,5 +96,35 @@ addTrait('StudentTrait', {
         ["Base.BookMetalWelding1"] = 1,
         ["Base.BookTailoring1"] = 1, 
         ["Base.BookTrapping1"] = 1
+    },
+})
+
+--[[
+    Amigo del balon:
+    Como cierto joven dijo en su momento, "El balon es mi amigo".
+]]
+addTrait('FootballerTrait', {
+    name = "UI_trait_footballer",
+    description = "UI_traitdesc_footballer",
+    cost = 0,
+    inventory = {
+        ["Base.SoccerBall"] = 1
+    },
+})
+
+--[[
+    Experiencia Cartografica:
+    Gracias a su experiencia investigando y explorando terrenos, tienes algo de experiencia en cartografia.
+]]
+addTrait('CartographyTrait', {
+    name = "UI_trait_cartography",
+    description = "UI_traitdesc_cartography",
+    cost = 0,
+    inventory = {
+        ["Base.MarchRidgeMap"] = 1, 
+        ["Base.MuldraughMap"] = 1, 
+        ["Base.RiversideMap"] = 1, 
+        ["Base.RosewoodMap"] = 1, 
+        ["Base.WestpointMap"] = 1, 
     },
 })
