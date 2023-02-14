@@ -35,7 +35,7 @@ Pensando en cosas chistosas o estupidas, se creo esta categoria de profesiones, 
 | --------------- |-------| -------------|
 |Furro            | X     | OwO * Mueve su colita*. |
 |Viejito Pascuero | X     | El Viejito Pascuero es real, y quien diga lo contrario debe ser un zombie...  o un Grinch. |
-|Pololos          | -3     | Son pololos, son pololos, y se tienen que matar... |
+|$$\color{red}{Pololos}$$           | -3     | Son pololos, son pololos, y se tienen que matar... |
 
 
 ## Rasgos
