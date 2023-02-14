@@ -9,33 +9,33 @@ Estas profesiones son de ambitos generales, profesiones no relacionadas a nada e
 
 | Profesión | Costo | Descripción  |
 | --------- |-------| -------------|
-|Modelo     | X     | Belleza, fuerza y agilidad; Eso es Miss Project Zomboid.|
-|Estudiante | X     |Las nuevas generaciones tienen mucho que aprender.|
-|Abogado    | X     |Expertos en letras y el manejo de las leyes; Que desgracia que los Zombies no son juzgados ante estas.|
-|Geografo   | X     |Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.|
-|Panadero   | X     |Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable. <3|
-|Barrendero | X     |Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.|
-|Barbero    | X     |Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.|
+|Modelo     |  -6   | Belleza, fuerza y agilidad; Eso es Miss Project Zomboid.|
+|Estudiante |  -2   |Las nuevas generaciones tienen mucho que aprender.|
+|Abogado    |  -3   |Expertos en letras y el manejo de las leyes; Que desgracia que los Zombies no son juzgados ante estas.|
+|Geografo   |  -5   |Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.|
+|Panadero   |  -3   |Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable. <3|
+|Barrendero |  -2   |Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.|
+|Barbero    |  -3   |Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.|
 
 ### Profesiones Latinas
 Tomando como referencia elementos, personajes y eventos en Latam, estas profesiones tienen relacion o referencia a elementos de Latinoamerica.
 
 | Profesión         | Costo | Descripción  |
 | ----------------- |-------| -------------|
-|Indigena           | X     | En una crisis, la experiencia de los ancestros es vital. |
-|Politico           | X     | Solo otro politico mas. |
-|Maestro Chasquilla | X     | Experto en el 'Un poco de todo'. |
-|Futbolista         | X     | GOLAZOOOOOOO...! |
-|Tejedor de Paja    | X     | Una profesiones perdiendose en el tiempo, tratar de hilar y tejer con montones de paja. |
+|Indigena           |  -4   | En una crisis, la experiencia de los ancestros es vital. |
+|Politico           |   0   | Solo otro politico mas. |
+|Maestro Chasquilla |  -7   | Experto en el 'Un poco de todo'. |
+|Futbolista         |  -4   | GOLAZOOOOOOO...! |
+|Tejedor de Paja    |  -4   | Una profesiones perdiendose en el tiempo, tratar de hilar y tejer con montones de paja. |
 
 ### Profesiones de Broma
 Pensando en cosas chistosas o estupidas, se creo esta categoria de profesiones, pensando en profesiones estupidas, chistosas o que hagan referencias a algun meme en general.
 
 | Profesión       | Costo | Descripción  |
 | --------------- |-------| -------------|
-|Furro            | X     | OwO * Mueve su colita*. |
-|Viejito Pascuero | X     | El Viejito Pascuero es real, y quien diga lo contrario debe ser un zombie...  o un Grinch. |
-|$$\color{red}{Pololos}$$           | -3     | Son pololos, son pololos, y se tienen que matar... |
+|Furro            |  -4   | OwO * Mueve su colita*. |
+|Viejito Pascuero |  -5   | El Viejito Pascuero es real, y quien diga lo contrario debe ser un zombie...  o un Grinch. |
+|Pololos          |  -3   | Son pololos, son pololos, y se tienen que matar... |
 
 
 ## Rasgos
