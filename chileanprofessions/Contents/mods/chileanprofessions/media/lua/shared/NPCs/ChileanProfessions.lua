@@ -102,6 +102,76 @@ addProfession('Geography', {
     traits = {"CartographyTrait"}
 })
 
+--[[
+    Panadero:
+    Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable <3
+]]
+addProfession('Baker', {
+    name = "UI_prof_baker",
+    icon = "prof_baker",
+    cost = -3,
+    xp = {
+        [Perks.Cooking] = 2,
+        [Perks.SmallBlunt] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    clothing = {
+        Hat = {"Base.Hat_ChefHat"},
+        Tshirt = {"Base.Tshirt_WhiteLongSleeve", "Base.Shirt_FormalWhite_ShortSleeve"},
+        Jacket = {"Base.Jacket_Chef"},
+        Pants = {"Base.Trousers_SuitWhite"},
+    },
+    inventory = {
+        ["Base.RollingPin"] = 1, 
+        ["Base.BreadDough"] = 1, 
+    },
+})
+
+--[[
+    Barrendero:
+    Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.
+]]
+addProfession('StreetSweeper', {
+    name = "UI_prof_streetsweeper",
+    icon = "prof_streetsweeper",
+    cost = -2,
+    xp = {
+        [Perks.Blunt] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    clothing = {
+        Tshirt = {"Base.Shirt_FormalWhite"},
+        Jacket = {"Base.JacketLong_Random"},
+        Pants = {"Base.LongJohns_Bottoms", "Base.Trousers_SuitWhite"},
+    },
+    inventory = {
+        ["Base.Broom"] = 1, 
+    },
+})
+
+--[[
+    Barbero:
+    Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.
+]]
+addProfession('Barber', {
+    name = "UI_prof_barber",
+    icon = "prof_barber",
+    cost = -3,
+    xp = {
+        [Perks.Doctor] = 1,
+        [Perks.SmallBlade] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    clothing = {
+        Tshirt = {"Base.Shirt_FormalWhite"},
+        Jacket = {"Base.JacketLong_Random"},
+        Pants = {"Base.LongJohns_Bottoms", "Base.Trousers_SuitWhite"},
+    },
+    inventory = {
+        ["Base.Scissors"] = 1, 
+    },
+})
+
 -- ##########################################################################################################
 -- Profesiones Relacionadas a Chile y Latam
 -- ##########################################################################################################
@@ -160,7 +230,6 @@ addProfession('Shoddyworkman', {
         [Perks.Woodwork] = 1, 
         [Perks.Electricity] = 1, 
         [Perks.MetalWelding] = 1,
-        [Perks.Electricity] = 1,
         [Perks.Maintenance] = 1, 
         [Perks.Mechanics] = 1
     },
@@ -251,4 +320,48 @@ addProfession('Furry', {
         ["Base.Hat_Spiffo"] = 1, 
         ["Base.SpiffoTail"] = 1
     },
+})
+
+--[[
+    Santa:
+    Es diciembre, Casi es navidad, y no entiendo como Santa puede estar con abrigo y gorro con este 
+    calor de... 
+
+    Espero que almenos tenga algo para refrescarse...
+]]
+addProfession('Santa', {
+    name = "UI_prof_santa",
+    icon = "prof_santa",
+    cost = -5,
+    xp = {
+        [Perks.Sneak] = 3,
+        [Perks.Electricity] = 1, 
+        [Perks.Mechanics] = 1,
+        [Perks.Woodwork] = 1, 
+    },
+    clothing = {
+        Hat = {"Base.Hat_SantaHat", "Base.Hat_SantaHatGreen"},
+        Neck = {"Base.Scarf_White", "Base.Scarf_StripeBlackWhite", "Base.Scarf_StripeBlueWhite", "Base.Scarf_StripeRedWhite"},
+        Jacket = {"Base.JacketLong_Santa", "Base.JacketLong_SantaGreen"}, 
+        Pants = {"Base.Trousers_Santa", "Base.Trousers_SantaGReen"},
+    }, 
+    traits = {"ChristmasSpiritTrait"}
+    
+})
+
+--[[
+    Pololitios:
+    Que lindo es el amor, salvo cuando es el de otros y tu estas solo...
+]]
+addProfession('Lovers', {
+    name = "UI_prof_lovers",
+    icon = "prof_lovers",
+    cost = -3,
+    xp = {
+        [Perks.Woodwork] = 1, 
+        [Perks.Tailoring] = 1,
+        [Perks.Cooking] = 2,
+    },
+    traits = {"Ironhappycouples","Sadvalentine"}
+    
 })
