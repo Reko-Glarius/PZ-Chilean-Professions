@@ -7,13 +7,15 @@ El mod presenta varias profesiones para añadir, las cuales se pueden dividir en
 ### Profesiones Genericas
 Estas profesiones son de ambitos generales, profesiones no relacionadas a nada en especifico, pero que no se encuentran en el juego base.
 
-* **Modelo - Coste de X Puntos:** Belleza, fuerza y agilidad; Eso es Miss Project Zomboid.
-* **Estudiante - Coste de X Puntos:** Las nuevas generaciones tienen mucho que aprender.
-* **Abogado - Coste de X Puntos:** Expertos en letras y el manejo de las leyes; Que desgracia que los Zombies no son juzgados ante estas.
-* **Geografo - Coste de X Puntos:** Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.
-* **Panadero - Coste de X Puntos:** Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable. <3
-* **Barrendero - Coste de X Puntos:** Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.
-* **Barbero - Coste de X Puntos:** Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.
+| Profesión | Costo    | Descripción  |
+| --------- |----------| -------------|
+|Modelo     | X Puntos | Belleza, fuerza y agilidad; Eso es Miss Project Zomboid.|
+|Estudiante | X Puntos |Las nuevas generaciones tienen mucho que aprender.|
+|Abogado    | X Puntos |Expertos en letras y el manejo de las leyes; Que desgracia que los Zombies no son juzgados ante estas.|
+|Geografo   | X Puntos |Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.|
+|Panadero   | X Puntos |Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable. <3|
+|Barrendero | X Puntos |Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.|
+|Barbero    | X Puntos |Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.|
 
 ### Profesiones Latinas
 Tomando como referencia elementos, personajes y eventos en Latam, estas profesiones tienen relacion o referencia a elementos de Latinoamerica.
