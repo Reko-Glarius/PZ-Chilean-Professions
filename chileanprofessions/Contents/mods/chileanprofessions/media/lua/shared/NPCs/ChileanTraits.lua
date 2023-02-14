@@ -128,3 +128,53 @@ addTrait('CartographyTrait', {
         ["Base.WestpointMap"] = 1, 
     },
 })
+
+--[[
+    Espiritu Navideño:
+    Santa siempre tiene tiempo para unas galletitas con leche
+]]
+addTrait('ChristmasSpiritTrait', {
+    name = "UI_trait_christmasspirit",
+    description = "UI_traitdesc_christmasspirit",
+    cost = 0,
+    inventory = {
+        ["Base.SeedBag"] = 1, 
+        ["Base.Milk"] = 1, 
+
+        ["Base.CookiesOatmeal"] = 1, 
+        ["Base.CookiesShortbread"] = 1,
+        ["Base.CookiesChocolate"] = 1, 
+        ["Base.CookieChocolateChip"] = 1,
+        ["Base.Candycane"] = 1
+    },
+})
+
+--[[
+    El Fierro Golpeador de Parejas Felices:
+    Efectivamente, no se hacer risas malvadas, *inserte risa_malvada.mp4*
+]]
+addTrait('Ironhappycouples', {
+    name = "UI_trait_ironhappycouples",
+    description = "UI_traitdesc_ironhappycouples",
+    cost = 0,
+    xp = {
+        [Perks.Blunt] = 1,
+    },
+    inventory = {
+        ["Base.MetalPipe"] = 1, 
+    },
+})
+
+--[[
+    Triste San Valentin:
+    Almenos aun tengo los chocolates...
+]]
+addTrait('Sadvalentine', {
+    name = "UI_trait_sadvalentine",
+    description = "UI_traitdesc_sadvalentine",
+    cost = 0,
+    inventory = {
+        ["Base.CookiesChocolate"] = 2,  
+        ["Base.Chocolate"] = 2,
+    },
+})

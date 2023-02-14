@@ -11,6 +11,17 @@ UI_ES = {
     UI_prof_geography = "Geografo",
     UI_profdesc_geography = "Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.",
 
+    UI_prof_baker = "Panadero",
+    UI_profdesc_baker = "Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable. <3",
+
+    UI_prof_streetsweeper = "Barrendero",
+    UI_profdesc_streetsweeper = "Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.",
+
+    UI_prof_barber = "Barbero",
+    UI_profdesc_barber = "Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.",
+
+    
+    
     UI_prof_indigenous = "Indigena",
     UI_profdesc_indigenous = "En una crisis, la experiencia de los ancestros es vital.",
 
@@ -26,8 +37,16 @@ UI_ES = {
     UI_prof_strawweaver = "Tejedor de Paja",
     UI_profdesc_strawweaver = "Una profesiones perdiendose en el tiempo, tratar de hilar y tejer con montones de paja.",
 
+
+
     UI_prof_furry = "Furro",
     UI_profdesc_furry = "OwO *Mueve su colita*.",
+
+    UI_prof_santa = "Viejito Pascuero",
+    UI_profdesc_santa = "El Viejito Pascuero es real, y quien diga lo contrario debe ser un zombie...  o un Grinch.",
+
+    UI_prof_lovers = "Pololos",
+    UI_profdesc_lovers = "Son pololos, son pololos, y se tienen que matar...",
 
 
 
@@ -51,4 +70,14 @@ UI_ES = {
 
     UI_trait_cartography = "Experiencia Cartografica",
     UI_traitdesc_cartography = "Gracias a su experiencia investigando y explorando terrenos, tienes algo de experiencia en cartografia."
+
+    UI_trait_christmasspirit = "Espiritu Navideno",
+    UI_traitdesc_christmasspirit = "Santa siempre tiene tiempo para unas galletitas con leche.",
+    
+    UI_trait_ironhappycouples = "El Fierro Golpeador de Parejas Felices",
+    UI_traitdesc_ironhappycouples = "Efectivamente, no se hacer risas malvadas, *inserte risa_malvada.mp4*.",
+
+    UI_trait_sadvalentine = "Triste San Valentin",
+    UI_traitdesc_sadvalentine = "Almenos aun tengo los chocolates..."
+
 }

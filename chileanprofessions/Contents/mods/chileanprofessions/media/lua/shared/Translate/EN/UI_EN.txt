@@ -10,7 +10,18 @@ UI_EN = {
 
     UI_prof_geography = "Geographer",
     UI_profdesc_geography = "In order to understand and know the geography of the world, they embark on the path of knowing where they will be safest.",
+    
+    UI_prof_baker = "Baker",
+    UI_profdesc_baker = "Few things are more delicious than freshly baked bread, but the flavor of freshly baked bread yourself is unbeatable. <3",
 
+    UI_prof_streetsweeper = "Street Sweeper",
+    UI_profdesc_streetsweeper = "Your job may not have been the most exciting, but now you're free to choose your path... with your broom.",
+    
+    UI_prof_barber = "Barber",
+    UI_profdesc_barber = "Who knew that cutting hair and beards badly would prepare you for a zombie apocalypse.",
+
+    
+    
     UI_prof_indigenous = "Indigenous",
     UI_profdesc_indigenous = "In a crisis, the experience of the ancestors is vital.",
 
@@ -26,8 +37,16 @@ UI_EN = {
     UI_prof_strawweaver = "Straw Weaver",
     UI_profdesc_strawweaver = "A profession lost in time, trying to spin and weave with piles of straw.",
 
+    
+    
     UI_prof_furry = "Furry",
     UI_profdesc_furry = "OwO *wags her tail*.",
+
+    UI_prof_santa = "Santa",
+    UI_profdesc_santa = "Santa is real, and whoever says otherwise must be a zombie... or a Grinch.",
+
+    UI_prof_lovers = "Lovers",
+    UI_profdesc_lovers = "They are lovers, they are lovers, and they have to die run over...",
 
 
 
@@ -51,4 +70,14 @@ UI_EN = {
 
     UI_trait_cartography = "Cartographic Experience",
     UI_traitdesc_cartography = "Thanks to your experience researching and exploring terrain, you have some experience in cartography."
+
+    UI_trait_christmasspirit = "Christmas Spirit",
+    UI_traitdesc_christmasspirit = "Santa always has time for some cookies with milk.",
+    
+    UI_trait_ironhappycouples = "The Striking Iron of Happy Couples",
+    UI_traitdesc_ironhappycouples = "Indeed, I don't know how to make evil laughs, *insert evil_laugh.mp4*.",
+
+    UI_trait_sadvalentine = "Sad Valentin",
+    UI_traitdesc_sadvalentine = "At least I still have the chocolates..."
+
 }
