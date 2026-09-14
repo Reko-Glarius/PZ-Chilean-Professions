@@ -1,0 +1,114 @@
+UI_ES = {
+
+    UI_prof_model = "Modelo",
+    UI_profdesc_model = "Belleza, fuerza y agilidad; Eso es Miss Project Zomboid.",
+
+    UI_prof_student = "Estudiante",
+    UI_profdesc_student = "Las nuevas generaciones tienen mucho que aprender.",
+
+    UI_prof_lawyer = "Abogado",
+    UI_profdesc_lawyer = "Expertos en letras y el manejo de las leyes; Que desgracia que los Zombies no son juzgados ante estas.",
+
+    UI_prof_geography = "Geografo",
+    UI_profdesc_geography = "Con el fin de entender y conocer la geografia del mundo, se embarcan en el camino de saber donde estaran más seguros.",
+
+    UI_prof_baker = "Panadero",
+    UI_profdesc_baker = "Pocas cosas son más deliciosas que un pan recien horneado, pero el sabor del pan recien horneado por uno mismo es insuperable. <3",
+
+    UI_prof_streetsweeper = "Barrendero",
+    UI_profdesc_streetsweeper = "Puede que tu trabajo no fuese el más emocionante, pero ahora eres libre de escoger tu camino... con tu escoba.",
+
+    UI_prof_barber = "Barbero",
+    UI_profdesc_barber = "Quien diria que cortar mal el pelo y barbas te prepararia para un apocalipsis zombie.",
+
+    UI_prof_drugdealer = "Traficante",
+    UI_profdesc_drugdealer = "Ahi gente que lucha, otros lloran, otros desaparecen... Cada uno lidia el caos a su manera, y mi trabajo es darles el material",
+
+
+
+    
+    
+    UI_prof_indigenous = "Indigena",
+    UI_profdesc_indigenous = "En una crisis, la experiencia de los ancestros es vital.",
+
+    UI_prof_politic = "Politico",
+    UI_profdesc_politic = "Solo otro politico mas.",
+
+    UI_prof_shoddyworkman = "Maestro Chasquilla",
+    UI_profdesc_shoddyworkman = "Experto en el 'Un poco de todo'.",
+
+    UI_prof_footballer = "Futbolista",
+    UI_profdesc_footballer = "GOLAZOOOOOOO...!",
+
+    UI_prof_strawweaver = "Tejedor de Paja",
+    UI_profdesc_strawweaver = "Una profesiones perdiendose en el tiempo, tratar de hilar y tejer con montones de paja.",
+
+    UI_prof_flaite = "Flaite",
+    UI_profdesc_flaite = "A los choros me los como con limón.",
+
+    UI_prof_huaso = "Huaso",
+    UI_profdesc_huaso = "Le pegaron su puñete al zombi Loyola...",
+
+
+
+
+
+    UI_prof_furry = "Furro",
+    UI_profdesc_furry = "OwO *Mueve su colita*.",
+
+    UI_prof_santa = "Viejito Pascuero",
+    UI_profdesc_santa = "El Viejito Pascuero es real, y quien diga lo contrario debe ser un zombie...  o un Grinch.",
+
+    UI_prof_lovers = "Pololos",
+    UI_profdesc_lovers = "Son pololos, son pololos, y se tienen que matar...",
+
+    UI_prof_boludo = "Aweonao",
+    prof_boludo = "Mirá que eri weon",
+
+
+
+
+
+    UI_trait_streetwalker = "Callejero",
+    UI_traitdesc_streetwalker = "Experiencia en cuchillos y armas blancas.",
+
+    UI_trait_student = "Estudiante",
+    UI_traitdesc_student = "Variedad de libros.",
+
+    UI_trait_model = "Relajacion",
+    UI_traitdesc_model = "Lleva cigarros para calmarse.", 
+
+    UI_trait_generatorexpertise = "Experiencia con Generadores",
+    UI_traitdesc_generatorexpertise = "Al haber ya trabajado con generadores, se tiene conocimientos y herramientas para poder usarlos.",
+
+    UI_trait_pathblade = "El Camino de la Espada",
+    UI_traitdesc_pathblade = "Mientras tu jugabas PZ con este mod, yo estudiaba la espada...",
+
+    UI_trait_footballer = "Amigo del balon",
+    UI_traitdesc_footballer = "Como cierto joven dijo en su momento, 'El balon es mi amigo'.", 
+
+    UI_trait_cartography = "Experiencia Cartografica",
+    UI_traitdesc_cartography = "Gracias a su experiencia investigando y explorando terrenos, tienes algo de experiencia en cartografia."
+
+    UI_trait_christmasspirit = "Espiritu Navideno",
+    UI_traitdesc_christmasspirit = "Santa siempre tiene tiempo para unas galletitas con leche.",
+    
+    UI_trait_ironhappycouples = "El Fierro Golpeador de Parejas Felices",
+    UI_traitdesc_ironhappycouples = "Efectivamente, no se hacer risas malvadas, *inserte risa_malvada.mp4*.",
+
+    UI_trait_sadvalentine = "Triste San Valentin",
+    UI_traitdesc_sadvalentine = "Almenos aun tengo los chocolates...",
+
+    UI_trait_nut = "Nunca ahi apretao gatillo",
+    UI_traitdesc_nut = "Los verdaeos choros an apretao gatillo",
+
+    UI_trait_conventionallawyer = "Abogado Convencional",
+    UI_traitdesc_conventionallawyer = "Agrupa habilidades propias de todo abogado, Fuma y lee rapido.",
+
+    UI_trait_mplac = "Mira pa' lante aweonao Cristian",
+    UI_traitdesc_mplac = "Probabilidad de caerte mientras te mueves",
+
+    UI_trait_otherway = "Andando en otra",
+    UI_traitdesc_otherway = "Cada tantos minutos, el panico baja a 0",
+
+}
