@@ -1,6 +1,15 @@
 # PZ-Chilean-Professions
 Mod de Project Zomboid para añadir profesiones y rasgos generales, comicos y relacionados a Chile y Latam.
 
+## Dependencia y compatibilidad
+
+Dependencia: [Profession Framework (Workshop 3777756767)](https://steamcommunity.com/sharedfiles/filedetails/?id=3777756767), con Mod ID `ProfessionFramework`. Activar una sola versión del framework.
+
+- **Build 41:** conserva el paquete original en `Contents/mods/chileanprofessions/`.
+- **Build 42:** el paquete `42/` requiere como mínimo la versión `42.20`. La dependencia está actualizada, pero la migración de profesiones, rasgos y traducciones sigue pendiente; este cambio aún no hace funcional el mod en B42.
+
+La raíz del repositorio corresponde a la carpeta Workshop `chileanprofessions`. Al publicar en Steam Workshop, configurar también el elemento `3777756767` como dependencia y retirar la dependencia anterior.
+
 ## Profesiones
 El mod presenta varias profesiones para añadir, las cuales se pueden dividir en 3 tipos diferentes:
 

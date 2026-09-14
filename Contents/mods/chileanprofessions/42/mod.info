@@ -1,6 +1,6 @@
 name=Chilean Professions
 id=ChileanProfessions
 description=Nuevas profesiones basadas en personajes, esteriotipos y otros entes de Chile y sus alrrededores.
-require=\ProfessionFrameworkB42
+require=ProfessionFramework
 poster=preview.png
-supported_versions=41.0+
+versionMin=42.20
