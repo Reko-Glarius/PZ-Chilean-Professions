@@ -1,0 +1,348 @@
+module ChileanProfessions
+{
+    character_trait_definition chileanprofessions:streetwalker
+    {
+        CharacterTrait = chileanprofessions:streetwalker,
+        UIName = UI_trait_streetwalker,
+        UIDescription = UI_traitdesc_streetwalker,
+        Cost = 4,
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        XPBoosts = LongBlade=1;SmallBlade=1,
+    }
+
+    character_trait_definition chileanprofessions:generatorexpertise
+    {
+        CharacterTrait = chileanprofessions:generatorexpertise,
+        UIName = UI_trait_generatorexpertise,
+        UIDescription = UI_traitdesc_generatorexpertise,
+        Cost = 4,
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        XPBoosts = Electricity=1,
+        GrantedRecipes = Generator,
+    }
+
+    character_trait_definition chileanprofessions:pathblade
+    {
+        CharacterTrait = chileanprofessions:pathblade,
+        UIName = UI_trait_pathblade,
+        UIDescription = UI_traitdesc_pathblade,
+        Cost = 8,
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        XPBoosts = LongBlade=2,
+    }
+
+    character_trait_definition chileanprofessions:modeltrait
+    {
+        CharacterTrait = chileanprofessions:modeltrait,
+        UIName = UI_trait_model,
+        UIDescription = UI_traitdesc_model,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:studenttrait
+    {
+        CharacterTrait = chileanprofessions:studenttrait,
+        UIName = UI_trait_student,
+        UIDescription = UI_traitdesc_student,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:footballertrait
+    {
+        CharacterTrait = chileanprofessions:footballertrait,
+        UIName = UI_trait_footballer,
+        UIDescription = UI_traitdesc_footballer,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:cartographytrait
+    {
+        CharacterTrait = chileanprofessions:cartographytrait,
+        UIName = UI_trait_cartography,
+        UIDescription = UI_traitdesc_cartography,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:christmasspirittrait
+    {
+        CharacterTrait = chileanprofessions:christmasspirittrait,
+        UIName = UI_trait_christmasspirit,
+        UIDescription = UI_traitdesc_christmasspirit,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:ironhappycouples
+    {
+        CharacterTrait = chileanprofessions:ironhappycouples,
+        UIName = UI_trait_ironhappycouples,
+        UIDescription = UI_traitdesc_ironhappycouples,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        XPBoosts = Blunt=1,
+    }
+
+    character_trait_definition chileanprofessions:sadvalentine
+    {
+        CharacterTrait = chileanprofessions:sadvalentine,
+        UIName = UI_trait_sadvalentine,
+        UIDescription = UI_traitdesc_sadvalentine,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:nut
+    {
+        CharacterTrait = chileanprofessions:nut,
+        UIName = UI_trait_nut,
+        UIDescription = UI_traitdesc_nut,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        XPBoosts = Aiming=2;Reloading=1,
+    }
+
+    character_trait_definition chileanprofessions:conventionallawyer
+    {
+        CharacterTrait = chileanprofessions:conventionallawyer,
+        UIName = UI_trait_conventionallawyer,
+        UIDescription = UI_traitdesc_conventionallawyer,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:aweonao
+    {
+        CharacterTrait = chileanprofessions:aweonao,
+        UIName = UI_trait_mplac,
+        UIDescription = UI_traitdesc_mplac,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_trait_definition chileanprofessions:otherway
+    {
+        CharacterTrait = chileanprofessions:otherway,
+        UIName = UI_trait_otherway,
+        UIDescription = UI_traitdesc_otherway,
+        Cost = 0,
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+    }
+
+    character_profession_definition chileanprofessions:model
+    {
+        CharacterProfession = chileanprofessions:model,
+        UIName = UI_prof_model,
+        UIDescription = UI_profdesc_model,
+        Cost = -6,
+        IconPathName = prof_model,
+        XPBoosts = Sprinting=1;Strength=1;Fitness=1,
+        GrantedTraits = chileanprofessions:modeltrait,
+    }
+
+    character_profession_definition chileanprofessions:student
+    {
+        CharacterProfession = chileanprofessions:student,
+        UIName = UI_prof_student,
+        UIDescription = UI_profdesc_student,
+        Cost = -2,
+        IconPathName = prof_student,
+        XPBoosts = Sprinting=1,
+        GrantedTraits = chileanprofessions:studenttrait,
+    }
+
+    character_profession_definition chileanprofessions:lawyer
+    {
+        CharacterProfession = chileanprofessions:lawyer,
+        UIName = UI_prof_lawyer,
+        UIDescription = UI_profdesc_lawyer,
+        Cost = -3,
+        IconPathName = prof_lawyer,
+        XPBoosts = Nimble=2;Sneak=2,
+        GrantedTraits = chileanprofessions:conventionallawyer;base:fastreader;base:smoker,
+    }
+
+    character_profession_definition chileanprofessions:geography
+    {
+        CharacterProfession = chileanprofessions:geography,
+        UIName = UI_prof_geography,
+        UIDescription = UI_profdesc_geography,
+        Cost = -5,
+        IconPathName = prof_geography,
+        XPBoosts = Sprinting=2;Fitness=2,
+        GrantedTraits = chileanprofessions:cartographytrait,
+    }
+
+    character_profession_definition chileanprofessions:baker
+    {
+        CharacterProfession = chileanprofessions:baker,
+        UIName = UI_prof_baker,
+        UIDescription = UI_profdesc_baker,
+        Cost = -3,
+        IconPathName = prof_baker,
+        XPBoosts = Cooking=2;SmallBlunt=1;Maintenance=1,
+    }
+
+    character_profession_definition chileanprofessions:streetsweeper
+    {
+        CharacterProfession = chileanprofessions:streetsweeper,
+        UIName = UI_prof_streetsweeper,
+        UIDescription = UI_profdesc_streetsweeper,
+        Cost = -2,
+        IconPathName = prof_streetsweeper,
+        XPBoosts = Blunt=1;Maintenance=1,
+    }
+
+    character_profession_definition chileanprofessions:barber
+    {
+        CharacterProfession = chileanprofessions:barber,
+        UIName = UI_prof_barber,
+        UIDescription = UI_profdesc_barber,
+        Cost = -3,
+        IconPathName = prof_barber,
+        XPBoosts = Doctor=1;SmallBlade=1;Maintenance=1,
+    }
+
+    character_profession_definition chileanprofessions:drugdealer
+    {
+        CharacterProfession = chileanprofessions:drugdealer,
+        UIName = UI_prof_drugdealer,
+        UIDescription = UI_profdesc_drugdealer,
+        Cost = -4,
+        IconPathName = prof_drugdealer,
+        XPBoosts = Sneak=2;Maintenance=1;PlantScavenging=1,
+    }
+
+    character_profession_definition chileanprofessions:indigenous
+    {
+        CharacterProfession = chileanprofessions:indigenous,
+        UIName = UI_prof_indigenous,
+        UIDescription = UI_profdesc_indigenous,
+        Cost = -4,
+        IconPathName = prof_indigenous,
+        XPBoosts = Spear=2,
+        GrantedRecipes = MakeStickTrap;MakeSnareTrap;MakeWoodenBoxTrap;MakeTrapBox;MakeCageTrap,
+    }
+
+    character_profession_definition chileanprofessions:politic
+    {
+        CharacterProfession = chileanprofessions:politic,
+        UIName = UI_prof_politic,
+        UIDescription = UI_profdesc_politic,
+        Cost = 0,
+        IconPathName = prof_politic,
+    }
+
+    character_profession_definition chileanprofessions:shoddyworkman
+    {
+        CharacterProfession = chileanprofessions:shoddyworkman,
+        UIName = UI_prof_shoddyworkman,
+        UIDescription = UI_profdesc_shoddyworkman,
+        Cost = -7,
+        IconPathName = prof_shoddyworkman,
+        XPBoosts = Woodwork=1;Electricity=1;MetalWelding=1;Maintenance=1;Mechanics=1,
+        GrantedRecipes = MakeRemoteControllerV1;MakeTimer;AddTimerToBomb;AddMotionSensorV1ToBomb;MakeRemoteTrigger;AddCraftedTriggerToBomb;MakeNoiseMaker;MakeSmokeBomb;CraftMakeshiftRadio;MetalWallLvl1;MetalWallLvl2;MetalFloorLvl1;MetalWindowFrameLvl1;MetalWindowFrameLvl2;MetalWallFrame;MetalDoorFrameLvl1;MetalDoorFrameLvl2;Metal_Stairs;Metal_Counter_Lvl1;Metal_Counter_Lvl2;Metal_CounterCorner_Lvl1;Metal_CounterCorner_Lvl2;Metal_Crate_Lvl1;Metal_Crate_Lvl2;Metal_LockerBig_Lvl1;Metal_LockerBig_Lvl2;Metal_LockerSmall_Lvl1;Metal_LockerSmall_Lvl2;Metal_Shelves_Lvl1;Metal_Shelves_Lvl2,
+    }
+
+    character_profession_definition chileanprofessions:footballer
+    {
+        CharacterProfession = chileanprofessions:footballer,
+        UIName = UI_prof_footballer,
+        UIDescription = UI_profdesc_footballer,
+        Cost = -4,
+        IconPathName = prof_footballer,
+        XPBoosts = Sprinting=3;Strength=2,
+        GrantedTraits = chileanprofessions:footballertrait,
+    }
+
+    character_profession_definition chileanprofessions:strawweaver
+    {
+        CharacterProfession = chileanprofessions:strawweaver,
+        UIName = UI_prof_strawweaver,
+        UIDescription = UI_profdesc_strawweaver,
+        Cost = -4,
+        IconPathName = prof_strawweaver,
+        XPBoosts = Strength=2;Maintenance=1;Tailoring=3,
+    }
+
+    character_profession_definition chileanprofessions:flaite
+    {
+        CharacterProfession = chileanprofessions:flaite,
+        UIName = UI_prof_flaite,
+        UIDescription = UI_profdesc_flaite,
+        Cost = -8,
+        IconPathName = prof_flaite,
+        XPBoosts = SmallBlade=2;Sprinting=1;Sneak=2,
+        GrantedTraits = chileanprofessions:nut,
+    }
+
+    character_profession_definition chileanprofessions:huaso
+    {
+        CharacterProfession = chileanprofessions:huaso,
+        UIName = UI_prof_huaso,
+        UIDescription = UI_profdesc_huaso,
+        Cost = -4,
+        IconPathName = prof_huaso,
+        XPBoosts = Sprinting=1;Sneak=1;Fitness=1;Nimble=2;Lightfoot=2,
+    }
+
+    character_profession_definition chileanprofessions:furry
+    {
+        CharacterProfession = chileanprofessions:furry,
+        UIName = UI_prof_furry,
+        UIDescription = UI_profdesc_furry,
+        Cost = -4,
+        IconPathName = prof_furry,
+        XPBoosts = Tailoring=3,
+    }
+
+    character_profession_definition chileanprofessions:santa
+    {
+        CharacterProfession = chileanprofessions:santa,
+        UIName = UI_prof_santa,
+        UIDescription = UI_profdesc_santa,
+        Cost = -5,
+        IconPathName = prof_santa,
+        XPBoosts = Sneak=3;Electricity=1;Mechanics=1;Woodwork=1,
+        GrantedTraits = chileanprofessions:christmasspirittrait,
+    }
+
+    character_profession_definition chileanprofessions:lovers
+    {
+        CharacterProfession = chileanprofessions:lovers,
+        UIName = UI_prof_lovers,
+        UIDescription = UI_profdesc_lovers,
+        Cost = -3,
+        IconPathName = prof_lovers,
+        XPBoosts = Woodwork=1;Tailoring=1;Cooking=2,
+        GrantedTraits = chileanprofessions:ironhappycouples;chileanprofessions:sadvalentine,
+    }
+
+    character_profession_definition chileanprofessions:boludo
+    {
+        CharacterProfession = chileanprofessions:boludo,
+        UIName = UI_prof_boludo,
+        UIDescription = UI_profdesc_boludo,
+        Cost = 6,
+        IconPathName = prof_boludo,
+        GrantedTraits = chileanprofessions:aweonao;chileanprofessions:otherway,
+    }
+
+}

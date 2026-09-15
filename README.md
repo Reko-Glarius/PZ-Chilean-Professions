@@ -6,7 +6,7 @@ Mod de Project Zomboid para añadir profesiones y rasgos generales, comicos y re
 Dependencia: [Profession Framework (Workshop 3777756767)](https://steamcommunity.com/sharedfiles/filedetails/?id=3777756767), con Mod ID `ProfessionFramework`. Activar una sola versión del framework.
 
 - **Build 41:** conserva el paquete original en `Contents/mods/chileanprofessions/`.
-- **Build 42:** el paquete `42/` requiere como mínimo la versión `42.20`. La dependencia está actualizada, pero la migración de profesiones, rasgos y traducciones sigue pendiente; este cambio aún no hace funcional el mod en B42.
+- **Build 42:** el paquete `42/` requiere como mínimo la versión `42.20`. Usa registros y definiciones estáticas, traducciones JSON y la API B42 del framework para los objetos iniciales. La ropa de profesión se equipa en la personalización mediante el sistema nativo del juego y se puede cambiar antes de comenzar.
 
 La raíz del repositorio corresponde a la carpeta Workshop `chileanprofessions`. Al publicar en Steam Workshop, configurar también el elemento `3777756767` como dependencia y retirar la dependencia anterior.
 
